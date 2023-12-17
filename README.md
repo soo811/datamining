@@ -1,6 +1,6 @@
 # DataMining
 
-## Requirement 
+### Requirement 
 __Library__
 ```
 * sklearn
@@ -50,7 +50,7 @@ Project
 Then, call --data_path='../data'
 ```
 
-## Explanation for codes
+### Explanation for codes
 기상 변수(8월과 9월의 평균기온, 월 총 강수량, 일사량)과 측정 위치(5개의 산)의 위도, 경도, 산의 높이를 이용해 해당 지역의 단풍 시작일을 예측하는 모델
 
 * Model1 : 입력 값에 대해 어떤 산에 대한 정보인지 분류 + 해당 산의 입력값에 대한 단풍 시작일 예측을 각각 진행하여 결합
@@ -78,7 +78,8 @@ Then, call --data_path='../data'
     * 모델 구현을 위해 사용된 데이터셋
 
 
-## Results
+### Results
+두 가지 모델의 예측 결과 비교 결과
 ![image](https://github.com/soo811/datamining/assets/91643983/d49dcb37-ef93-4bb0-b79d-d272eac5ba35)
 
 > **_2023년도 단풍 시작일에 대해 모델 1과 모델 2를 사용한 결과와 실제 단풍 시작일과의 차이를 비교해 보니 모델1은 실제와 평균 4일, 모델2는 평균 2일 정도의 차이가 나타났다._**
